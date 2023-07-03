@@ -1,7 +1,9 @@
+import { RouterMain } from "./Router/RouterMain"
+
 function App() {
 
   return (
-   <p>test</p>
+    <RouterMain />
   )
 }
 

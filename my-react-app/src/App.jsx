@@ -1,7 +1,14 @@
+import { GlobalStyle } from "./styles/globalStyle"
+import { ResetCSS } from "./styles/reset"
+
 function App() {
 
   return (
-   <p>test</p>
+    <>
+    <ResetCSS />
+    <GlobalStyle />
+    <p>test</p>
+    </>
   )
 }
 

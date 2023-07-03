@@ -1,6 +1,10 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "@hookform/resolvers": "^3.1.1",
     "zod": "^3.21.4"
+=======
+    "styled-components": "^6.0.2"
+>>>>>>> 047746fef751a2aea20d8dcfcd189ec87b8b442f
   }
 }

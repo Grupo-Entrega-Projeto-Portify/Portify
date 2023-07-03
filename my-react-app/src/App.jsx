@@ -1,7 +1,15 @@
+import { GlobalStyle } from "./styles/globalStyle"
+import { ResetCSS } from "./styles/reset"
+import { RouterMain } from "./Router/RouterMain"
+
 function App() {
 
   return (
-   <p>test</p>
+    <>
+    <ResetCSS />
+    <GlobalStyle />
+    <RouterMain />
+    </>
   )
 }
 

@@ -1,5 +1,6 @@
 import { GlobalStyle } from "./styles/globalStyle"
 import { ResetCSS } from "./styles/reset"
+import { RouterMain } from "./Router/RouterMain"
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
     <ResetCSS />
     <GlobalStyle />
-    <p>test</p>
+    <RouterMain />
     </>
   )
 }
